@@ -72,7 +72,7 @@ class ClarinNER:
             for sentence in chunk.findall('sentence'):
                 for tok in sentence.findall('tok'):
                     orth = tok.find('orth').text
-                    if cl.is_person(tok):
+                    if self.is_person(tok):
                         if isPerson:
                             person += " " + orth
                         else:
@@ -104,7 +104,7 @@ class ClarinNER:
             for sentence in chunk.findall('sentence'):
                 for tok in sentence.findall('tok'):
                     orth = tok.find('orth').text
-                    if cl.is_city(tok):
+                    if self.is_city(tok):
                         if isCity:
                             city += " " + orth
                         else:
@@ -126,30 +126,45 @@ class ClarinNER:
 
 if __name__ == "__main__":
     
-    # instancja klasy 
-    cl = ClarinNER()
-    
-    # przykładowy tekst
-    text = "BOHUSZ Ksawery Michał: Dzienniki podróży. Wstęp i oprac. Filip Wolański. Kraków–Wrocław 2014 Księg. Akademicka; Wydz. Nauk Hist. i Pedagog. Inst. Hist. Uniw. Wrocławskiego 8° ss. XVIII, 322, nlb. 1, tabl. 3, il., streszcz. niem. (Peregrinationes Sarmatarum; vol. 3)." 
+    def zadanie(text):
+        if text == "":
+            return
+        else:
+            print(f"TEXT: {text}")
 
-    resp, status = cl.process(text)
-    if resp:
-        # wyszukiwanie osób w tekście
-        osoby = cl.get_persons()
-        print("Osoby:")
-        for item in osoby:
-            print(f"\t{item}")
-
-        # wyszukiwanie miejscowości w tekście
-        miejsca = cl.get_cities()
-        print("Miejsca:")
-        for item in miejsca:
-            print(f"\t{item}")
-    else:
-        print(f"Error, status code = {status}")
+        # instancja klasy 
+        cl = ClarinNER()
     
-                    
-                
-    
+        resp, status = cl.process(text)
+        if resp:
+            # wyszukiwanie osób w tekście
+            osoby = cl.get_persons()
+            print("Osoby:")
+            for item in osoby:
+                print(f"\t{item}")
 
+            # wyszukiwanie miejscowości w tekście
+            miejsca = cl.get_cities()
+            print("Miejsca:")
+            for item in miejsca:
+                print(f"\t{item}")
         
+            print()
+
+        else:
+            print(f"Error, status code = {status}")
+    
+    
+    # przykładowe tekst
+    text = "BOHUSZ Ksawery Michał: Dzienniki podróży. Wstęp i oprac. Filip Wolański. Kraków–Wrocław 2014 Księg. Akademicka; Wydz. Nauk Hist. i Pedagog. Inst. Hist. Uniw. Wrocławskiego 8° ss. XVIII, 322, nlb. 1, tabl. 3, il., streszcz. niem. (Peregrinationes Sarmatarum; vol. 3)." 
+    zadanie(text)
+
+    text = "Busina, z Grzymalici: Gronostaj (Wyszota) kasztelan sandomierski, starosta sądecki."
+    zadanie(text)
+
+    text = "Świętosław Litwos wielkorządca krakowski."
+    zadanie(text)
+
+    text = "Busko, z Jan syn Dobromira, podkanclerzy krakowski (1360-66) 1226, pisarz królewski."
+    zadanie(text)
+
