@@ -68,3 +68,8 @@ if __name__ == "__main__":
     teksty = read_texts("texts/bibliografia.txt")
     for item in teksty:
         get_person_city_from_text(item)
+
+     # teksty z różnych źródeł
+    teksty = read_texts("texts/mix.txt")
+    for item in teksty:
+        get_person_city_from_text(item)
