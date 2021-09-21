@@ -22,14 +22,34 @@ class ClarinNER:
     
         if r.ok:
             self.result = r.content.decode(encoding="utf-8")
+            self.result = self.result.strip()
             return True, "" 
         else:
             self.result = ""
             return False, str(r.status_code) 
 
 
+    def result_type(self):
+        if self.result[:2] == "[{":
+            return 'json'
+        elif self.result[:5] == "<?xml":
+            return 'xml'
+        else:
+            return 'none'
+
+
     def get_xml(self):
-        return self.result    
+        if self.result[:4] == "<?xml":
+            return self.result
+        else:
+            return ""    
+
+
+    def get_json(self):
+        if self.result[:1] == "[{":
+            return self.result
+        else:
+            return ""    
 
 
     def get_html(self):
@@ -61,9 +81,16 @@ class ClarinNER:
         
 
     def get_persons(self) -> list:
-        if self.result == "":
+        result_type = self.result_type()
+        if result_type == 'xml':
+            return self.get_persons_xml()
+        elif result_type == 'json':
+            return self.get_persons_json()
+        else:
             return []
-        
+
+
+    def get_persons_xml(self) -> list:
         root = ET.fromstring(self.result)
         persons = []
         isPerson = False
@@ -90,12 +117,31 @@ class ClarinNER:
                     isPerson = False
         
         return persons
+    
+
+    def get_persons_json(self) -> list:
+        persons = []
+        output = json.loads(self.result)
+        for item in output:
+            entities = item['entities']
+            for ent in entities:
+                if ent['label'] == "nam_liv_person":
+                    persons.append(ent['text'])
+        
+        return persons
 
 
     def get_cities(self) -> list:
-        if self.result == "":
+        result_type = self.result_type()
+        if result_type == 'xml':
+            return self.get_cities_xml()
+        elif result_type == 'json':
+            return self.get_cities_json()
+        else:
             return []
-        
+
+
+    def get_cities_xml(self) -> list:
         root = ET.fromstring(self.result)
         cities = []
         isCity = False
@@ -120,5 +166,17 @@ class ClarinNER:
                     cities.append(cities)
                     city = ""
                     isCity = False
+        
+        return cities
+    
+
+    def get_cities_json(self) -> list:
+        cities = []
+        output = json.loads(self.result)
+        for item in output:
+            entities = item['entities']
+            for ent in entities:
+                if ent['label'] == "nam_loc_gpe_city":
+                    cities.append(ent['text'])
         
         return cities

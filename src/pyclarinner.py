@@ -25,8 +25,8 @@ def read_texts(file_name) -> list:
     return texts
 
 
-def get_person_city_from_text(text):
-    """ Przetwarzanie podanego tekstu przez usługę NER z CLARIN-PL
+def get_person_city_liner2(text):
+    """ Przetwarzanie podanego tekstu przez usługę NER (Liner2) z CLARIN-PL
         w celu wyszukania miejscowości i osób
     """
     if text == "":
@@ -42,16 +42,51 @@ def get_person_city_from_text(text):
         # wyszukiwanie osób w tekście
         osoby = cl.get_persons()
         print("Osoby:")
-        for item in osoby:
-            print(f"\t{item}")
+        if len(osoby) > 0:
+            for item in osoby:
+                print(f"\t{item}")
 
         # wyszukiwanie miejscowości w tekście
         miejsca = cl.get_cities()
         print("Miejsca:")
-        for item in miejsca:
-            print(f"\t{item}")
+        if len(miejsca) > 0:
+            for item in miejsca:
+                print(f"\t{item}")
         
         print()
+
+    else:
+        print(f"Error, status code = {status}")
+
+
+def get_person_city_poldeep(text):
+    """ Przetwarzanie podanego tekstu przez usługę NER (PolDeepNer2) z CLARIN-PL
+        w celu wyszukania miejscowości i osób
+    """
+    if text == "":
+        return
+    else:
+        print(f"TEXT: {text}")
+
+    # instancja klasy ClarinNER 
+    cl = ClarinNER()
+
+    resp, status = cl.process(text, lpmn='any2txt|poldeepner2')
+    if resp:
+
+        # wyszukiwanie osób w tekście
+        osoby = cl.get_persons()
+        print("Osoby:")
+        if len(osoby) > 0:
+            for item in osoby:
+                print(f"\t{item}")
+
+        # wyszukiwanie miejscowości w tekście
+        miejsca = cl.get_cities()
+        print("Miejsca:")
+        if len(miejsca) > 0:
+            for item in miejsca:
+                print(f"\t{item}")
 
     else:
         print(f"Error, status code = {status}")
@@ -62,14 +97,24 @@ if __name__ == "__main__":
     # fragmenty z urzędników małopolskich        
     teksty = read_texts("texts/urzednicy.txt")
     for item in teksty:
-        get_person_city_from_text(item)
+        get_person_city_liner2(item)
+    for item in teksty:
+        get_person_city_poldeep(item)
+
 
     # fragmenty z bibliografii
     teksty = read_texts("texts/bibliografia.txt")
     for item in teksty:
-        get_person_city_from_text(item)
+        get_person_city_liner2(item)
+    for item in teksty:
+        get_person_city_poldeep(item)
 
-     # teksty z różnych źródeł
+
+    # teksty z różnych źródeł
     teksty = read_texts("texts/mix.txt")
     for item in teksty:
-        get_person_city_from_text(item)
+        get_person_city_liner2(item)
+    for item in teksty:
+        get_person_city_poldeep(item)
+
+
