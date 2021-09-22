@@ -26,8 +26,9 @@ Osoby:
 	Witolda
 	M . Kosman
 Miejsca:
-	Czechowa
-	Warszawa
+	Czechowa (nam_loc_gpe_city, nam_loc)
+	Polski (nam_loc_gpe_country)
+	Warszawa (nam_loc_gpe_city, nam_loc)
 
 
 TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim.

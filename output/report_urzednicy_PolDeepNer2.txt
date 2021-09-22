@@ -2,10 +2,10 @@ TEXT: Busina, z Grzymalici: Gronostaj (Wyszota) kasztelan sandomierski, starosta
 
 Osoby:
 Miejsca:
-	Busina
-	Grzymalici
-	Gronostaj
-	Wyszota
+	Busina - nam_loc_gpe_city
+	Grzymalici - nam_loc_gpe_city
+	Gronostaj - nam_loc_gpe_city
+	Wyszota - nam_loc_gpe_city
 
 
 TEXT: Świętosław Litwos wielkorządca krakowski
@@ -31,7 +31,7 @@ Osoby:
 	Witolda
 	M. Kosman
 Miejsca:
-	Warszawa
+	Warszawa - nam_loc_gpe_city
 
 
 TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim.

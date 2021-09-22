@@ -4,8 +4,8 @@ Osoby:
 	BOHUSZ Ksawery Michał
 	Filip Wolański
 Miejsca:
-	Kraków
-	Wrocław
+	Kraków - nam_loc_gpe_city
+	Wrocław - nam_loc_gpe_city
 
 
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem.
@@ -14,6 +14,7 @@ Osoby:
 	Małgorzaty Pawlak
 	Karola Sanojcy
 Miejsca:
+	Śląska - nam_loc_historical_region
 
 
 TEXT: MATYASIK Joanna: Druki Jerzego Förstera w zbiorach Wojewódzkiej i Miejskiej Biblioteki Publicznej w Bydgoszczy. Kronika Bydgoska. T. 37: 2016 s. 309–330, streszcz. ang., niem. Jerzy Förster (ok. 1615–1660), drukarz i księgarz.
@@ -24,7 +25,7 @@ Osoby:
 	Jerzego Förstera
 	Jerzy Förster
 Miejsca:
-	Bydgoszczy
+	Bydgoszczy - nam_loc_gpe_city
 
 
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il.
@@ -36,7 +37,7 @@ Osoby:
 	Robert Duma
 	Robert Bartlewski
 Miejsca:
-	Bystrzyca Kłodzka
-	Kłodzko
+	Bystrzyca Kłodzka - nam_loc_gpe_city
+	Kłodzko - nam_loc_gpe_city
 
 

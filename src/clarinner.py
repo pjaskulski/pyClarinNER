@@ -86,7 +86,7 @@ class ClarinNER:
                 else:
                     label += ", " + chan
                 
-        return isCity, f"{name} - {label}"
+        return isCity, f"{label}"
         
 
     def get_persons(self) -> list:
@@ -155,15 +155,17 @@ class ClarinNER:
         cities = []
         isCity = False
         city = ""
+        label = ""
         for chunk in root.iter('chunk'):
             for sentence in chunk.findall('sentence'):
                 for tok in sentence.findall('tok'):
                     orth = tok.find('orth').text
-                    if self.is_city(tok):
+                    ok, label = self.is_city(tok)
+                    if ok:
                         if isCity:
-                            city += " " + orth
+                            city += f" {orth} ({label}) "
                         else:
-                            city = orth
+                            city = f"{orth} ({label})"
                             isCity = True
                     else:
                         if isCity:

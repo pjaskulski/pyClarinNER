@@ -130,7 +130,6 @@ def get_person_city_poldeep(filename, output_dir) -> None:
             if resp:
                 # przetwarzany tekst
                 f.write(f"TEXT: {text}\n\n")
-                print(cl.get_json())
                 
                 # wyszukiwanie osób w tekście
                 osoby = cl.get_persons()

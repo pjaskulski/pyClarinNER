@@ -10,23 +10,32 @@ TEXT: Położenie Pomorza (wzdłuż wybrzeża bałtyckiego) predestynowało je n
 Osoby:
 	Bałtyku
 Miejsca:
-	Pomorza
-	Pomorza
-	Warty
-	Poznań
-	Pniewy
-	Santok
-	Myślibórz
-	Pyrzyce
-	Dąbie
-	Szczecinem
-	Szczecina
-	Santoka
-	Stare Osieczno
-	Radęcin
-	Zieleniewo
-	Choszczno
-	Szczecin
+	Pomorza (nam_loc_gpe_city, nam_loc)
+	Bałtyku (nam_loc)
+	Odry (nam_loc_hydronym_river, nam_loc)
+	Pomorza (nam_loc)
+	Pomorza (nam_loc_gpe_city, nam_loc)
+	Polską (nam_loc_gpe_country, nam_loc)
+	Wielkopolska (nam_loc_historical_region, nam_loc)
+	Odry (nam_loc_hydronym_river, nam_loc)
+	Warty (nam_loc_gpe_city, nam_loc)
+	Odry (nam_loc_hydronym_river, nam_loc)
+	Poznań (nam_loc_gpe_city, nam_loc)
+	Pniewy (nam_loc_gpe_city, nam_loc)
+	Santok (nam_loc_gpe_city, nam_loc)
+	Myślibórz (nam_loc_gpe_city, nam_loc)
+	Pyrzyce (nam_loc_gpe_city, nam_loc)
+	Dąbie (nam_loc_gpe_city, nam_loc)
+	Szczecinem (nam_loc_gpe_city, nam_loc)
+	Szczecina (nam_loc_gpe_city, nam_loc)
+	Santoka (nam_loc_gpe_city, nam_loc)
+	Stare (nam_loc_gpe_city) Osieczno (nam_loc_gpe_city) 
+	Radęcin (nam_loc_gpe_city, nam_loc)
+	Zieleniewo (nam_loc_gpe_city, nam_loc)
+	Choszczno (nam_loc_gpe_city, nam_loc)
+	Stargard (nam_loc)
+	Dąbie (nam_loc_hydronym_river, nam_loc)
+	Szczecin (nam_loc_gpe_city, nam_loc)
 
 
 TEXT: Wiemy, że w pierwszej połowie XIV w. uprawiano żeglugę na Warcie i Noteci począwszy od Drezdenka w dół ich biegu. Nic jednak nie wiemy o dziejach handlu polsko-pomorskiego na tym szlaku wodnym przed 1390 r. Polska handlowała z Pomorzem raczej na drogach lądowych. Ruch handlowy obu krajów na Warcie datuje się z końcem XIV w. Książę pomorski Bogusław VIII i król polski Władysław Jagiełło wydali obustronnie przywileje zapewniające kupcom polskim i pomorskim swobodny handel na drogach lądowych i Warcie, zobowiązując ich tylko do opłacenia zwykłych ceł w obu terytoriach.
@@ -36,7 +45,11 @@ Osoby:
 	Bogusław VIII
 	Władysław Jagiełło
 Miejsca:
-	Pomorzem
-	Warcie
+	Warcie (nam_loc_hydronym_river, nam_loc)
+	Noteci (nam_loc)
+	Polska (nam_loc_gpe_country, nam_loc)
+	Pomorzem (nam_loc_gpe_city, nam_loc)
+	Warcie (nam_loc_hydronym_river, nam_loc)
+	Warcie (nam_loc_gpe_city, nam_loc)
 
 

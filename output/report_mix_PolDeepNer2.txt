@@ -11,23 +11,33 @@ TEXT: Położenie Pomorza (wzdłuż wybrzeża bałtyckiego) predestynowało je n
 
 Osoby:
 Miejsca:
-	Poznań
-	Pniewy
-	Kamionkę
-	Skwierzynę
-	Santok
-	Myślibórz
-	Pyrzyce
-	Dąbie
-	Szczecinem
-	Szczecina
-	Santoka
-	Stare Osieczno
-	Radęcin
-	Zieleniewo
-	Choszczno
-	Stargard
-	Szczecin
+	Pomorza - nam_loc_historical_region
+	Sudetów - nam_loc_land_mountain
+	Odry - nam_loc_hydronym_river
+	Pomorza - nam_loc_historical_region
+	Pomorza - nam_loc_historical_region
+	Wielkopolska - nam_loc_historical_region
+	Odry - nam_loc_hydronym_river
+	Warty - nam_loc_hydronym_river
+	Odry - nam_loc_hydronym_river
+	Poznań - nam_loc_gpe_city
+	Pniewy - nam_loc_gpe_city
+	Kamionkę - nam_loc_gpe_city
+	Skwierzynę - nam_loc_gpe_city
+	Santok - nam_loc_gpe_city
+	Myślibórz - nam_loc_gpe_city
+	Pyrzyce - nam_loc_gpe_city
+	Dąbie - nam_loc_gpe_city
+	Szczecinem - nam_loc_gpe_city
+	Szczecina - nam_loc_gpe_city
+	Santoka - nam_loc_gpe_city
+	Stare Osieczno - nam_loc_gpe_city
+	Radęcin - nam_loc_gpe_city
+	Zieleniewo - nam_loc_gpe_city
+	Choszczno - nam_loc_gpe_city
+	Stargard - nam_loc_gpe_city
+	Dąbie - nam_loc_land_mountain
+	Szczecin - nam_loc_gpe_city
 
 
 TEXT: Wiemy, że w pierwszej połowie XIV w. uprawiano żeglugę na Warcie i Noteci począwszy od Drezdenka w dół ich biegu. Nic jednak nie wiemy o dziejach handlu polsko-pomorskiego na tym szlaku wodnym przed 1390 r. Polska handlowała z Pomorzem raczej na drogach lądowych. Ruch handlowy obu krajów na Warcie datuje się z końcem XIV w. Książę pomorski Bogusław VIII i król polski Władysław Jagiełło wydali obustronnie przywileje zapewniające kupcom polskim i pomorskim swobodny handel na drogach lądowych i Warcie, zobowiązując ich tylko do opłacenia zwykłych ceł w obu terytoriach.
@@ -36,6 +46,11 @@ Osoby:
 	Bogusław VIII
 	Władysław Jagiełło
 Miejsca:
-	Drezdenka
+	Warcie - nam_loc_hydronym_river
+	Noteci - nam_loc_hydronym_river
+	Drezdenka - nam_loc_gpe_city
+	Pomorzem - nam_loc_historical_region
+	Warcie - nam_loc_hydronym_river
+	Warcie - nam_loc_hydronym_river
 
 

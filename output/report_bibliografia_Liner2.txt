@@ -4,8 +4,8 @@ Osoby:
 	BOHUSZ Ksawery Michał
 	Filip Wolański
 Miejsca:
-	Kraków
-	Wrocław
+	Kraków (nam_loc_gpe_city, nam_loc)
+	Wrocław (nam_loc_gpe_city, nam_loc) 2014 (nam_loc)  Księg (nam_loc) 
 
 
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem.
@@ -24,7 +24,7 @@ Osoby:
 	Kronika Bydgoska
 	Jerzy Förster
 Miejsca:
-	Bydgoszczy
+	Bydgoszczy (nam_loc_gpe_city, nam_loc)
 
 
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il.
@@ -35,6 +35,7 @@ Osoby:
 	Robert Duma
 	Robert Bartlewski
 Miejsca:
-	Bystrzyca Kłodzka
+	Bystrzyca (nam_loc_gpe_city, nam_loc) Kłodzka (nam_loc_gpe_city, nam_loc) 
+	Kłodzko (nam_loc) 2016 (nam_loc)  Bibl (nam_loc) 
 
 
