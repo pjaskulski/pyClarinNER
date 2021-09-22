@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Świętosław</orth>
+    <lex disamb="1"><base>Świętosław</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+   </tok>
+   <tok>
+    <orth>Litwos</orth>
+    <lex disamb="1"><base>Litwos</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv">1</ann>
+   </tok>
+   <tok>
+    <orth>wielkorządca</orth>
+    <lex disamb="1"><base>wielkorządca</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <tok>
+    <orth>krakowski</orth>
+    <lex disamb="1"><base>krakowski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

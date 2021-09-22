@@ -7,24 +7,23 @@ Miejsca:
 TEXT: Świętosław Litwos wielkorządca krakowski
 
 Osoby:
-	Świętosław (nam_liv)  Litwos (nam_liv)
 Miejsca:
 
 
 TEXT: Busko, z Jan syn Dobromira, podkanclerzy krakowski (1360-66) 1226, pisarz królewski.
 
 Osoby:
-	Jan (nam_liv_person, nam_liv) 
-	Dobromira (nam_liv_person, nam_liv) 
+	Jan (nam_liv_person) 
+	Dobromira (nam_liv_person) 
 Miejsca:
 
 
 TEXT: Cebulka Mikołaj z Czechowa h. Cielepała, sekretarz wielkiego, księcia Witolda 1407-30, pisarz lubelski (1419-48) 551, zmarł a. 1456 (M. Kosman, „Studia Źródłoznawcze” 14, 1969, s. 102 -107; tenże w: Społeczeństwo Polski średniowiecznej, t. I, Warszawa 1981, s. 367-368)
 
 Osoby:
-	Cebulka (nam_liv_person, nam_liv)  Mikołaj (nam_liv_person, nam_liv)
-	Witolda (nam_liv_person, nam_liv) 
-	M (nam_liv_person, nam_liv)  . (nam_liv_person, nam_liv) Kosman (nam_liv_person, nam_liv)
+	Cebulka (nam_liv_person)  Mikołaj (nam_liv_person)
+	Witolda (nam_liv_person) 
+	M (nam_liv_person)  . (nam_liv_person) Kosman (nam_liv_person)
 Miejsca:
 	Czechowa (nam_loc_gpe_city, nam_loc)
 	Polski (nam_loc_gpe_country)
@@ -34,31 +33,31 @@ Miejsca:
 TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim.
 
 Osoby:
-	Piotr (nam_liv_person, nam_liv)  Włodkowic (nam_liv_person, nam_liv) podstoli (nam_liv_person) sandomierski (nam_liv_person)
+	Piotr (nam_liv_person)  Włodkowic (nam_liv_person) podstoli (nam_liv_person) sandomierski (nam_liv_person)
 Miejsca:
 
 
 TEXT: Cikowice, z Piotr h. Radwan, podżupek bocheński do 1442, psęd. Krak.
 
 Osoby:
-	Piotr (nam_liv_person, nam_liv) 
-	Krak (nam_liv_person, nam_liv) 
+	Piotr (nam_liv_person) 
+	Krak (nam_liv_person) 
 Miejsca:
 
 
 TEXT: Stanisław z Ostrołęki (brat poprzednich) notariusz królewski 1410.
 
 Osoby:
-	Stanisław (nam_liv_person, nam_liv)  z (nam_liv_person, nam_liv) Ostrołęki (nam_liv_person, nam_liv)
+	Stanisław (nam_liv_person)  z (nam_liv_person) Ostrołęki (nam_liv_person)
 Miejsca:
 
 
 TEXT: Czarnisza Andrzej z Rzeszotar h. Wąż, mieszczanin Krak., podżupek wielicki 1392-97, celnik Krak.
 
 Osoby:
-	Andrzej (nam_liv_person, nam_liv)  z (nam_liv_person, nam_liv) Rzeszotar (nam_liv_person, nam_liv)
-	Krak (nam_liv_person, nam_liv) 
-	Krak (nam_liv_person, nam_liv) 
+	Andrzej (nam_liv_person)  z (nam_liv_person) Rzeszotar (nam_liv_person)
+	Krak (nam_liv_person) 
+	Krak (nam_liv_person) 
 Miejsca:
 
 

@@ -1,8 +1,8 @@
 TEXT: BOHUSZ Ksawery Michał: Dzienniki podróży. Wstęp i oprac. Filip Wolański. Kraków–Wrocław 2014 Księg. Akademicka; Wydz. Nauk Hist. i Pedagog. Inst. Hist. Uniw. Wrocławskiego 8° ss. XVIII, 322, nlb. 1, tabl. 3, il., streszcz. niem. (Peregrinationes Sarmatarum; vol. 3).
 
 Osoby:
-	BOHUSZ (nam_liv_person, nam_liv)  Ksawery (nam_liv_person, nam_liv) Michał (nam_liv_person, nam_liv)
-	Filip (nam_liv_person, nam_liv)  Wolański (nam_liv_person, nam_liv)
+	BOHUSZ (nam_liv_person)  Ksawery (nam_liv_person) Michał (nam_liv_person)
+	Filip (nam_liv_person)  Wolański (nam_liv_person)
 Miejsca:
 	Kraków (nam_loc_gpe_city, nam_loc)
 	Wrocław (nam_loc_gpe_city, nam_loc) 2014 (nam_loc) Księg (nam_loc)
@@ -11,18 +11,18 @@ Miejsca:
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem.
 
 Osoby:
-	Małgorzaty (nam_liv_person, nam_liv)  Pawlak (nam_liv_person, nam_liv)
-	Karola (nam_liv_person, nam_liv)  Sanojcy (nam_liv_person, nam_liv)
+	Małgorzaty (nam_liv_person)  Pawlak (nam_liv_person)
+	Karola (nam_liv_person)  Sanojcy (nam_liv_person)
 Miejsca:
 
 
 TEXT: MATYASIK Joanna: Druki Jerzego Förstera w zbiorach Wojewódzkiej i Miejskiej Biblioteki Publicznej w Bydgoszczy. Kronika Bydgoska. T. 37: 2016 s. 309–330, streszcz. ang., niem. Jerzy Förster (ok. 1615–1660), drukarz i księgarz.
 
 Osoby:
-	Joanna (nam_liv_person, nam_liv) 
-	Jerzego (nam_liv_person, nam_liv)  Förstera (nam_liv_person, nam_liv)
-	Kronika (nam_liv_person, nam_liv)  Bydgoska (nam_liv_person, nam_liv)
-	Jerzy (nam_liv_person, nam_liv)  Förster (nam_liv_person, nam_liv)
+	Joanna (nam_liv_person) 
+	Jerzego (nam_liv_person)  Förstera (nam_liv_person)
+	Kronika (nam_liv_person)  Bydgoska (nam_liv_person)
+	Jerzy (nam_liv_person)  Förster (nam_liv_person)
 Miejsca:
 	Bydgoszczy (nam_loc_gpe_city, nam_loc)
 
@@ -30,10 +30,10 @@ Miejsca:
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il.
 
 Osoby:
-	Robert (nam_liv_person, nam_liv) 
-	Bartlewski (nam_liv_person, nam_liv)  Robert (nam_liv_person, nam_liv)
-	Robert (nam_liv_person, nam_liv)  Duma (nam_liv_person, nam_liv)
-	Robert (nam_liv_person, nam_liv)  Bartlewski (nam_liv_person, nam_liv)
+	Robert (nam_liv_person) 
+	Bartlewski (nam_liv_person)  Robert (nam_liv_person)
+	Robert (nam_liv_person)  Duma (nam_liv_person)
+	Robert (nam_liv_person)  Bartlewski (nam_liv_person)
 Miejsca:
 	Bystrzyca (nam_loc_gpe_city, nam_loc) Kłodzka (nam_loc_gpe_city, nam_loc)
 	Kłodzko (nam_loc) 2016 (nam_loc) Bibl (nam_loc)

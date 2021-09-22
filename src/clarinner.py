@@ -62,21 +62,20 @@ class ClarinNER:
         pass
 
 
-    def is_person(self, tok):
-        isPerson = False
+    def is_person(self, tok) -> tuple:
+        isPerson = 0
         label = ""
-        labels = ["nam_liv_person", 
-                  "nam_liv"]
+        labels = ["nam_liv_person"]
         for ann in tok.findall('ann'):
             chan = ann.get('chan')
             if chan in labels and int(ann.text) > 0:
-                isPerson = True
+                isPerson = int(ann.text)
                 if label == "":
                     label += chan
                 else:
                     label += ", " + chan
 
-        return isPerson, f"{label}"
+        return isPerson, f"{label}" 
 
 
     def is_city(self, tok) -> tuple:
@@ -112,31 +111,22 @@ class ClarinNER:
 
     def get_persons_xml(self) -> list:
         root = ET.fromstring(self.result)
-        persons = []
-        isPerson = False
-        person = ""
+        persons = []        
         for chunk in root.iter('chunk'):
             for sentence in chunk.findall('sentence'):
+                person = {}
                 for tok in sentence.findall('tok'):
                     orth = tok.find('orth').text
-                    ok, label = self.is_person(tok)
-                    if ok:
-                        if isPerson:
-                            person += f" {orth} ({label})"
+                    ann_number, label = self.is_person(tok)
+                    if ann_number:
+                        if ann_number in person.keys():
+                            person[ann_number] += f" {orth} ({label})"
                         else:
-                            person = f"{orth} ({label}) "
-                            isPerson = True
-                    else:
-                        if isPerson:
-                            persons.append(person)
-                            person = ""
-                            isPerson = False
+                            person[ann_number] = f"{orth} ({label}) "
             
-                if person != "":
-                    persons.append(person)
-                    person = ""
-                    isPerson = False
-        
+                for key in person:
+                    persons.append(person[key])
+                
         return persons
     
 

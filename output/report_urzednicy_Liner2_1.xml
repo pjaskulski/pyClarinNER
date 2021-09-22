@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Busina</orth>
+    <lex disamb="1"><base>Busina</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>Grzymalici</orth>
+    <lex disamb="1"><base>Grzymalici</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company" head="1">1</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">1</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>Gronostaj</orth>
+    <lex disamb="1"><base>gronostaj</base><ctag>subst:sg:nom:m2</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_org_company">1</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>Wyszota</orth>
+    <lex disamb="1"><base>Wyszota</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>kasztelan</orth>
+    <lex disamb="1"><base>kasztelan</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>sandomierski</orth>
+    <lex disamb="1"><base>sandomierski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj" head="1">1</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>starosta</orth>
+    <lex disamb="1"><base>starosta</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+   <tok>
+    <orth>sądecki</orth>
+    <lex disamb="1"><base>sądecki</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city" head="1">1</ann>
+    <ann chan="nam_adj" head="1">2</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_org_company">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_adj">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

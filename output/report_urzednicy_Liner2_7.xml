@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Stanisław</orth>
+    <lex disamb="1"><base>Stanisław</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv_person" head="1">1</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">1</ann>
+    <ann chan="nam_liv">1</ann>
+   </tok>
+   <tok>
+    <orth>Ostrołęki</orth>
+    <lex disamb="1"><base>Ostrołęka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <lex disamb="1"><base>ostrołęka</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="nam" head="1">2</ann>
+    <ann chan="nam_liv_person">1</ann>
+    <ann chan="nam_liv">1</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>brat</orth>
+    <lex disamb="1"><base>brat</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <tok>
+    <orth>poprzednich</orth>
+    <lex disamb="1"><base>poprzedni</base><ctag>adj:pl:gen:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <tok>
+    <orth>notariusz</orth>
+    <lex disamb="1"><base>notariusz</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <tok>
+    <orth>królewski</orth>
+    <lex disamb="1"><base>królewski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <tok>
+    <orth>1410</orth>
+    <lex disamb="1"><base>1410</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_liv">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

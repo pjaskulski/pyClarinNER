@@ -62,11 +62,16 @@ def get_person_city_liner2(filename, output_dir) -> None:
     cl = ClarinNER()
 
     with open(f"{output_dir}/report_{basename}_Liner2.txt", "w", encoding='utf-8') as f:
+        lp = 0
         for text in teksty:
+            lp += 1
             resp, status = cl.process(text)
             if resp:
                 # przetwarzany tekst
                 f.write(f"TEXT: {text}\n\n")
+                
+                with open(f"{output_dir}/report_{basename}_Liner2_{lp}.xml", "w", encoding='utf-8') as x:
+                    x.write(cl.get_xml())
                 
                 # wyszukiwanie osób w tekście
                 osoby = cl.get_persons()
@@ -160,9 +165,9 @@ if __name__ == "__main__":
     output_dir = "output"
     
     pliki.append("texts/urzednicy.txt")    # fragmenty z urzędników małopolskich        
-    pliki.append("texts/bibliografia.txt") # fragmenty z bibliografii
-    pliki.append("texts/mix.txt")          # teksty z różnych źródeł
+    #pliki.append("texts/bibliografia.txt") # fragmenty z bibliografii
+    #pliki.append("texts/mix.txt")          # teksty z różnych źródeł
     
     for plik in pliki:
         get_person_city_liner2(plik, output_dir)
-        get_person_city_poldeep(plik, output_dir)
+        #get_person_city_poldeep(plik, output_dir)

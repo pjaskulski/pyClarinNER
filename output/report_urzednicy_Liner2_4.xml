@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Cebulka</orth>
+    <lex disamb="1"><base>cebulka</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv_person" head="1">1</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+    <ann chan="nam_loc">0</ann>
+   </tok>
+   <tok>
+    <orth>Mikołaj</orth>
+    <lex disamb="1"><base>Mikołaj</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">1</ann>
+    <ann chan="nam_liv_person">1</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">1</ann>
+    <ann chan="nam_loc">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_loc">0</ann>
+   </tok>
+   <tok>
+    <orth>Czechowa</orth>
+    <lex disamb="1"><base>Czechow</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="nam" head="1">2</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_loc_gpe_city" head="1">1</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_loc" head="1">1</ann>
+   </tok>
+   <tok>
+    <orth>h</orth>
+    <lex disamb="1"><base>h</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_loc">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_loc">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk type="p" id="ch2">
+  <sentence id="s2">
+   <tok>
+    <orth>Cielepała</orth>
+    <lex disamb="1"><base>Cielepała</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>sekretarz</orth>
+    <lex disamb="1"><base>sekretarz</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>wielkiego</orth>
+    <lex disamb="1"><base>wielki</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>księcia</orth>
+    <lex disamb="1"><base>książę</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Witolda</orth>
+    <lex disamb="1"><base>Witold</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv_person" head="1">1</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>1407</orth>
+    <lex disamb="1"><base>1407</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date" head="1">1</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>30</orth>
+    <lex disamb="1"><base>30</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>pisarz</orth>
+    <lex disamb="1"><base>pisarz</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>lubelski</orth>
+    <lex disamb="1"><base>lubelski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city" head="1">1</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj" head="1">1</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>1419</orth>
+    <lex disamb="1"><base>1419</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date" head="1">2</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>48</orth>
+    <lex disamb="1"><base>48</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>551</orth>
+    <lex disamb="1"><base>551</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>zmarł</orth>
+    <lex disamb="1"><base>zemrzeć</base><ctag>praet:sg:m1:perf</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>a</orth>
+    <lex disamb="1"><base>a</base><ctag>conj</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+ <chunk type="p" id="ch3">
+  <sentence id="s3">
+   <tok>
+    <orth>1456</orth>
+    <lex disamb="1"><base>1456</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>M</orth>
+    <lex disamb="1"><base>M</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv_person" head="1">1</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">1</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">1</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Kosman</orth>
+    <lex disamb="1"><base>Kosman</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">1</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">1</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>„</orth>
+    <lex disamb="1"><base>„</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>Studia</orth>
+    <lex disamb="1"><base>studia</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex disamb="1"><base>studio</base><ctag>subst:pl:nom:n</ctag></lex>
+    <lex disamb="1"><base>studium</base><ctag>subst:pl:nom:n</ctag></lex>
+    <ann chan="nam" head="1">2</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album" head="1">1</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro" head="1">1</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Źródłoznawcze</orth>
+    <lex disamb="1"><base>źródłoznawczy</base><ctag>adj:sg:nom:n:pos</ctag></lex>
+    <ann chan="nam">2</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">1</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">1</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>”</orth>
+    <lex disamb="1"><base>”</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>14</orth>
+    <lex disamb="1"><base>14</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>1969</orth>
+    <lex disamb="1"><base>1969</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex" head="1">1</ann>
+    <ann chan="t3_date" head="1">1</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>s</orth>
+    <lex disamb="1"><base>sekunda</base><ctag>brev:npun</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>102</orth>
+    <lex disamb="1"><base>102</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>107</orth>
+    <lex disamb="1"><base>107</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>;</orth>
+    <lex disamb="1"><base>;</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>tenże</orth>
+    <lex disamb="1"><base>tenże</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>w</orth>
+    <lex disamb="1"><base>w</base><ctag>prep:acc:nwok</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>:</orth>
+    <lex disamb="1"><base>:</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Społeczeństwo</orth>
+    <lex disamb="1"><base>społeczeństwo</base><ctag>subst:sg:nom:n</ctag></lex>
+    <ann chan="nam" head="1">3</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro" head="1">2</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Polski</orth>
+    <lex disamb="1"><base>Polska</base><ctag>subst:sg:gen:f</ctag></lex>
+    <ann chan="nam">3</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country" head="1">1</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">2</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>średniowiecznej</orth>
+    <lex disamb="1"><base>średniowieczny</base><ctag>adj:sg:gen:f:pos</ctag></lex>
+    <ann chan="nam">3</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">2</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>t</orth>
+    <lex disamb="1"><base>t</base><ctag>ign</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>I</orth>
+    <lex disamb="1"><base>i</base><ctag>conj</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Warszawa</orth>
+    <lex disamb="1"><base>Warszawa</base><ctag>subst:sg:nom:f</ctag></lex>
+    <lex disamb="1"><base>warszawa</base><ctag>subst:sg:nom:f</ctag></lex>
+    <ann chan="nam" head="1">4</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city" head="1">1</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc" head="1">1</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>1981</orth>
+    <lex disamb="1"><base>1981</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex" head="1">2</ann>
+    <ann chan="t3_date" head="1">2</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>s</orth>
+    <lex disamb="1"><base>sekunda</base><ctag>brev:npun</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>367</orth>
+    <lex disamb="1"><base>367</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>368</orth>
+    <lex disamb="1"><base>368</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_pro_title_album">0</ann>
+    <ann chan="nam_loc_gpe_country">0</ann>
+    <ann chan="nam_loc_gpe_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_pro">0</ann>
+    <ann chan="nam_loc">0</ann>
+    <ann chan="timex">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>

@@ -1,7 +1,7 @@
 TEXT: Mikołaj Kamieniecki Jan Tarnowski Jan Sobieski
 
 Osoby:
-	Mikołaj (nam_liv_person, nam_liv)  Kamieniecki (nam_liv_person, nam_liv) Jan (nam_liv_person, nam_liv) Tarnowski (nam_liv_person, nam_liv) Jan (nam_liv_person, nam_liv) Sobieski (nam_liv_person, nam_liv)
+	Jan (nam_liv_person)  Tarnowski (nam_liv_person) Jan (nam_liv_person) Sobieski (nam_liv_person)
 Miejsca:
 
 
@@ -41,9 +41,9 @@ Miejsca:
 TEXT: Wiemy, że w pierwszej połowie XIV w. uprawiano żeglugę na Warcie i Noteci począwszy od Drezdenka w dół ich biegu. Nic jednak nie wiemy o dziejach handlu polsko-pomorskiego na tym szlaku wodnym przed 1390 r. Polska handlowała z Pomorzem raczej na drogach lądowych. Ruch handlowy obu krajów na Warcie datuje się z końcem XIV w. Książę pomorski Bogusław VIII i król polski Władysław Jagiełło wydali obustronnie przywileje zapewniające kupcom polskim i pomorskim swobodny handel na drogach lądowych i Warcie, zobowiązując ich tylko do opłacenia zwykłych ceł w obu terytoriach.
 
 Osoby:
-	Drezdenka (nam_liv_person, nam_liv) 
-	Bogusław (nam_liv_person, nam_liv)  VIII (nam_liv_person, nam_liv)
-	Władysław (nam_liv_person, nam_liv)  Jagiełło (nam_liv_person, nam_liv)
+	Drezdenka (nam_liv_person) 
+	Bogusław (nam_liv_person)  VIII (nam_liv_person)
+	Władysław (nam_liv_person)  Jagiełło (nam_liv_person)
 Miejsca:
 	Warcie (nam_loc_hydronym_river, nam_loc)
 	Noteci (nam_loc)

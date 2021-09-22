@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chunkList SYSTEM "ccl.dtd">
+<chunkList>
+ <chunk type="p" id="ch1">
+  <sentence id="s1">
+   <tok>
+    <orth>Busko</orth>
+    <lex disamb="1"><base>busko</base><ctag>adv:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>z</orth>
+    <lex disamb="1"><base>z</base><ctag>prep:gen:nwok</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Jan</orth>
+    <lex disamb="1"><base>Jan</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam" head="1">1</ann>
+    <ann chan="nam_liv_person" head="1">1</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv" head="1">1</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>syn</orth>
+    <lex disamb="1"><base>syn</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>Dobromira</orth>
+    <lex disamb="1"><base>Dobromir</base><ctag>subst:sg:gen:m1</ctag></lex>
+    <ann chan="nam" head="1">2</ann>
+    <ann chan="nam_liv_person" head="1">2</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv" head="1">2</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>podkanclerzy</orth>
+    <lex disamb="1"><base>podkanclerz</base><ctag>subst:pl:gen:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>krakowski</orth>
+    <lex disamb="1"><base>krakowski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj" head="1">1</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>(</orth>
+    <lex disamb="1"><base>(</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>1360</orth>
+    <lex disamb="1"><base>1360</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date" head="1">1</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>-</orth>
+    <lex disamb="1"><base>-</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>66</orth>
+    <lex disamb="1"><base>66</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>)</orth>
+    <lex disamb="1"><base>)</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>1226</orth>
+    <lex disamb="1"><base>1226</base><ctag>num:pl:nom:m1:rec</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>,</orth>
+    <lex disamb="1"><base>,</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>pisarz</orth>
+    <lex disamb="1"><base>pisarz</base><ctag>subst:sg:nom:m1</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <tok>
+    <orth>królewski</orth>
+    <lex disamb="1"><base>królewski</base><ctag>adj:sg:nom:m1:pos</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city" head="1">1</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj" head="1">2</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+   <ns/>
+   <tok>
+    <orth>.</orth>
+    <lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+    <ann chan="nam">0</ann>
+    <ann chan="nam_liv_person">0</ann>
+    <ann chan="nam_adj_city">0</ann>
+    <ann chan="nam_liv">0</ann>
+    <ann chan="nam_adj">0</ann>
+    <ann chan="t3_date">0</ann>
+   </tok>
+  </sentence>
+ </chunk>
+</chunkList>
