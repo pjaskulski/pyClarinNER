@@ -1,9 +1,9 @@
 TEXT: Mikołaj Kamieniecki Jan Tarnowski Jan Sobieski
 
 Osoby:
-	Mikołaj Kamieniecki
-	Jan Tarnowski
-	Jan Sobieski
+	Mikołaj Kamieniecki - nam_liv_person
+	Jan Tarnowski - nam_liv_person
+	Jan Sobieski - nam_liv_person
 Miejsca:
 
 
@@ -12,10 +12,12 @@ TEXT: Położenie Pomorza (wzdłuż wybrzeża bałtyckiego) predestynowało je n
 Osoby:
 Miejsca:
 	Pomorza - nam_loc_historical_region
+	Bałtyku - nam_loc_hydronym_sea
 	Sudetów - nam_loc_land_mountain
 	Odry - nam_loc_hydronym_river
 	Pomorza - nam_loc_historical_region
 	Pomorza - nam_loc_historical_region
+	Polską - nam_loc_gpe_country
 	Wielkopolska - nam_loc_historical_region
 	Odry - nam_loc_hydronym_river
 	Warty - nam_loc_hydronym_river
@@ -43,12 +45,13 @@ Miejsca:
 TEXT: Wiemy, że w pierwszej połowie XIV w. uprawiano żeglugę na Warcie i Noteci począwszy od Drezdenka w dół ich biegu. Nic jednak nie wiemy o dziejach handlu polsko-pomorskiego na tym szlaku wodnym przed 1390 r. Polska handlowała z Pomorzem raczej na drogach lądowych. Ruch handlowy obu krajów na Warcie datuje się z końcem XIV w. Książę pomorski Bogusław VIII i król polski Władysław Jagiełło wydali obustronnie przywileje zapewniające kupcom polskim i pomorskim swobodny handel na drogach lądowych i Warcie, zobowiązując ich tylko do opłacenia zwykłych ceł w obu terytoriach.
 
 Osoby:
-	Bogusław VIII
-	Władysław Jagiełło
+	Bogusław VIII - nam_liv_person
+	Władysław Jagiełło - nam_liv_person
 Miejsca:
 	Warcie - nam_loc_hydronym_river
 	Noteci - nam_loc_hydronym_river
 	Drezdenka - nam_loc_gpe_city
+	Polska - nam_loc_gpe_country
 	Pomorzem - nam_loc_historical_region
 	Warcie - nam_loc_hydronym_river
 	Warcie - nam_loc_hydronym_river

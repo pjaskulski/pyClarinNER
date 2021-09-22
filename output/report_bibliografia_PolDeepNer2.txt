@@ -1,8 +1,8 @@
 TEXT: BOHUSZ Ksawery Michał: Dzienniki podróży. Wstęp i oprac. Filip Wolański. Kraków–Wrocław 2014 Księg. Akademicka; Wydz. Nauk Hist. i Pedagog. Inst. Hist. Uniw. Wrocławskiego 8° ss. XVIII, 322, nlb. 1, tabl. 3, il., streszcz. niem. (Peregrinationes Sarmatarum; vol. 3).
 
 Osoby:
-	BOHUSZ Ksawery Michał
-	Filip Wolański
+	BOHUSZ Ksawery Michał - nam_liv_person
+	Filip Wolański - nam_liv_person
 Miejsca:
 	Kraków - nam_loc_gpe_city
 	Wrocław - nam_loc_gpe_city
@@ -11,8 +11,8 @@ Miejsca:
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem.
 
 Osoby:
-	Małgorzaty Pawlak
-	Karola Sanojcy
+	Małgorzaty Pawlak - nam_liv_person
+	Karola Sanojcy - nam_liv_person
 Miejsca:
 	Śląska - nam_loc_historical_region
 
@@ -20,10 +20,10 @@ Miejsca:
 TEXT: MATYASIK Joanna: Druki Jerzego Förstera w zbiorach Wojewódzkiej i Miejskiej Biblioteki Publicznej w Bydgoszczy. Kronika Bydgoska. T. 37: 2016 s. 309–330, streszcz. ang., niem. Jerzy Förster (ok. 1615–1660), drukarz i księgarz.
 
 Osoby:
-	MATYASIK
-	Joanna
-	Jerzego Förstera
-	Jerzy Förster
+	MATYASIK - nam_liv_person
+	Joanna - nam_liv_person
+	Jerzego Förstera - nam_liv_person
+	Jerzy Förster - nam_liv_person
 Miejsca:
 	Bydgoszczy - nam_loc_gpe_city
 
@@ -31,11 +31,11 @@ Miejsca:
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il.
 
 Osoby:
-	Robert
-	Bartlewski
-	Robert
-	Robert Duma
-	Robert Bartlewski
+	Robert - nam_liv_person
+	Bartlewski - nam_liv_person
+	Robert - nam_liv_person
+	Robert Duma - nam_liv_person
+	Robert Bartlewski - nam_liv_person
 Miejsca:
 	Bystrzyca Kłodzka - nam_loc_gpe_city
 	Kłodzko - nam_loc_gpe_city

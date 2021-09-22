@@ -1,28 +1,28 @@
 TEXT: BOHUSZ Ksawery Michał: Dzienniki podróży. Wstęp i oprac. Filip Wolański. Kraków–Wrocław 2014 Księg. Akademicka; Wydz. Nauk Hist. i Pedagog. Inst. Hist. Uniw. Wrocławskiego 8° ss. XVIII, 322, nlb. 1, tabl. 3, il., streszcz. niem. (Peregrinationes Sarmatarum; vol. 3).
 
 Osoby:
-	BOHUSZ Ksawery Michał
-	Filip Wolański
+	BOHUSZ (nam_liv_person, nam_liv)  Ksawery (nam_liv_person, nam_liv) Michał (nam_liv_person, nam_liv)
+	Filip (nam_liv_person, nam_liv)  Wolański (nam_liv_person, nam_liv)
 Miejsca:
 	Kraków (nam_loc_gpe_city, nam_loc)
-	Wrocław (nam_loc_gpe_city, nam_loc) 2014 (nam_loc)  Księg (nam_loc) 
+	Wrocław (nam_loc_gpe_city, nam_loc) 2014 (nam_loc) Księg (nam_loc)
 
 
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem.
 
 Osoby:
-	Małgorzaty Pawlak
-	Karola Sanojcy
+	Małgorzaty (nam_liv_person, nam_liv)  Pawlak (nam_liv_person, nam_liv)
+	Karola (nam_liv_person, nam_liv)  Sanojcy (nam_liv_person, nam_liv)
 Miejsca:
 
 
 TEXT: MATYASIK Joanna: Druki Jerzego Förstera w zbiorach Wojewódzkiej i Miejskiej Biblioteki Publicznej w Bydgoszczy. Kronika Bydgoska. T. 37: 2016 s. 309–330, streszcz. ang., niem. Jerzy Förster (ok. 1615–1660), drukarz i księgarz.
 
 Osoby:
-	Joanna
-	Jerzego Förstera
-	Kronika Bydgoska
-	Jerzy Förster
+	Joanna (nam_liv_person, nam_liv) 
+	Jerzego (nam_liv_person, nam_liv)  Förstera (nam_liv_person, nam_liv)
+	Kronika (nam_liv_person, nam_liv)  Bydgoska (nam_liv_person, nam_liv)
+	Jerzy (nam_liv_person, nam_liv)  Förster (nam_liv_person, nam_liv)
 Miejsca:
 	Bydgoszczy (nam_loc_gpe_city, nam_loc)
 
@@ -30,12 +30,12 @@ Miejsca:
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il.
 
 Osoby:
-	Robert
-	Bartlewski Robert
-	Robert Duma
-	Robert Bartlewski
+	Robert (nam_liv_person, nam_liv) 
+	Bartlewski (nam_liv_person, nam_liv)  Robert (nam_liv_person, nam_liv)
+	Robert (nam_liv_person, nam_liv)  Duma (nam_liv_person, nam_liv)
+	Robert (nam_liv_person, nam_liv)  Bartlewski (nam_liv_person, nam_liv)
 Miejsca:
-	Bystrzyca (nam_loc_gpe_city, nam_loc) Kłodzka (nam_loc_gpe_city, nam_loc) 
-	Kłodzko (nam_loc) 2016 (nam_loc)  Bibl (nam_loc) 
+	Bystrzyca (nam_loc_gpe_city, nam_loc) Kłodzka (nam_loc_gpe_city, nam_loc)
+	Kłodzko (nam_loc) 2016 (nam_loc) Bibl (nam_loc)
 
 

@@ -3,7 +3,6 @@
 from clarinner import ClarinNER
 import os
 
-
 def read_texts(file_name) -> list:
     """ Wczytywanie tekstów do analizy z plików tekstowych
         Przykładowe teksty oddzielone przez wiersz '---'
@@ -28,7 +27,8 @@ def read_texts(file_name) -> list:
 
 def get_person_city_liner2(filename, output_dir) -> None:
     """ Przetwarzanie podanego pliku przez usługę NER (Liner2) z CLARIN-PL
-        w celu wyszukania miejscowości i osób.
+        w celu wyszukania elementów 'geograficznych' (miejscowości, pasma górskie, 
+        rzeki, kraje, krainy) i osób.
 
         filename - ścieżka do pliku z tekstami (każda próbka rozdzielona 
         wierszem: ---)
@@ -91,7 +91,8 @@ def get_person_city_liner2(filename, output_dir) -> None:
 
 def get_person_city_poldeep(filename, output_dir) -> None:
     """ Przetwarzanie podanego pliku przez usługę NER (PolDeepNer2) z CLARIN-PL
-        w celu wyszukania miejscowości i osób
+        w celu wyszukania elementów 'geograficznych' (miejscowości, pasma górskie, 
+        rzeki, kraje, krainy) i osób
 
         filename - ścieżka do pliku z tekstami (każda próbka rozdzielona 
         wierszem: ---)
@@ -128,6 +129,7 @@ def get_person_city_poldeep(filename, output_dir) -> None:
         for text in teksty:
             resp, status = cl.process(text, lpmn='any2txt|poldeepner2')
             if resp:
+                #if "Czechow" in cl.result: print(cl.get_dict())
                 # przetwarzany tekst
                 f.write(f"TEXT: {text}\n\n")
                 

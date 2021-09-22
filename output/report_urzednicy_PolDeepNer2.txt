@@ -11,25 +11,25 @@ Miejsca:
 TEXT: Świętosław Litwos wielkorządca krakowski
 
 Osoby:
-	Świętosław Litwos
+	Świętosław Litwos - nam_liv_person
 Miejsca:
 
 
 TEXT: Busko, z Jan syn Dobromira, podkanclerzy krakowski (1360-66) 1226, pisarz królewski.
 
 Osoby:
-	Busko
-	Jan
-	Dobromira
+	Busko - nam_liv_person
+	Jan - nam_liv_person
+	Dobromira - nam_liv_person
 Miejsca:
 
 
 TEXT: Cebulka Mikołaj z Czechowa h. Cielepała, sekretarz wielkiego, księcia Witolda 1407-30, pisarz lubelski (1419-48) 551, zmarł a. 1456 (M. Kosman, „Studia Źródłoznawcze” 14, 1969, s. 102 -107; tenże w: Społeczeństwo Polski średniowiecznej, t. I, Warszawa 1981, s. 367-368)
 
 Osoby:
-	Mikołaj z Czechowa h. Cielepała
-	Witolda
-	M. Kosman
+	Mikołaj z Czechowa h. Cielepała - nam_liv_person
+	Witolda - nam_liv_person
+	M. Kosman - nam_liv_person
 Miejsca:
 	Warszawa - nam_loc_gpe_city
 
@@ -37,7 +37,34 @@ Miejsca:
 TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim.
 
 Osoby:
-	Piotr Włodkowic
+	Piotr Włodkowic - nam_liv_person
 Miejsca:
+
+
+TEXT: Cikowice, z Piotr h. Radwan, podżupek bocheński do 1442, psęd. Krak.
+
+Osoby:
+	Piotr h. Radwan - nam_liv_person
+Miejsca:
+	Cikowice - nam_loc_gpe_city
+	Krak - nam_loc_gpe_city
+
+
+TEXT: Stanisław z Ostrołęki (brat poprzednich) notariusz królewski 1410.
+
+Osoby:
+	Stanisław - nam_liv_person
+Miejsca:
+	Ostrołęki - nam_loc_gpe_city
+
+
+TEXT: Czarnisza Andrzej z Rzeszotar h. Wąż, mieszczanin Krak., podżupek wielicki 1392-97, celnik Krak.
+
+Osoby:
+	Czarnisza - nam_liv_person
+	Andrzej - nam_liv_person
+Miejsca:
+	Krak - nam_loc_gpe_city
+	Krak - nam_loc_gpe_city
 
 

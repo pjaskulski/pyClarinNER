@@ -49,6 +49,12 @@ class ClarinNER:
         if self.result.strip()[:2] == "[{":
             return self.result
         else:
+            return ""
+
+    def get_dict(self):
+        if self.result.strip()[:2] == "[{":
+            return json.loads(self.result.strip())
+        else:
             return ""    
 
 
@@ -58,20 +64,25 @@ class ClarinNER:
 
     def is_person(self, tok):
         isPerson = False
-
+        label = ""
+        labels = ["nam_liv_person", 
+                  "nam_liv"]
         for ann in tok.findall('ann'):
             chan = ann.get('chan')
-            if chan in ["nam_liv_person", "nam_liv"] and int(ann.text) > 0:
+            if chan in labels and int(ann.text) > 0:
                 isPerson = True
-                break
+                if label == "":
+                    label += chan
+                else:
+                    label += ", " + chan
 
-        return isPerson
+        return isPerson, f"{label}"
 
 
     def is_city(self, tok) -> tuple:
         isCity = False
         label = ""
-        name = tok.find('orth').text
+        #name = tok.find('orth').text
         labels = ["nam_loc_gpe_city", 
                   "nam_loc_hydronym_river",
                   "nam_loc_gpe_country",
@@ -108,11 +119,12 @@ class ClarinNER:
             for sentence in chunk.findall('sentence'):
                 for tok in sentence.findall('tok'):
                     orth = tok.find('orth').text
-                    if self.is_person(tok):
+                    ok, label = self.is_person(tok)
+                    if ok:
                         if isPerson:
-                            person += " " + orth
+                            person += f" {orth} ({label})"
                         else:
-                            person = orth
+                            person = f"{orth} ({label}) "
                             isPerson = True
                     else:
                         if isPerson:
@@ -130,12 +142,13 @@ class ClarinNER:
 
     def get_persons_json(self) -> list:
         persons = []
+        labels = []
         output = json.loads(self.result)
         for item in output:
             entities = item['entities']
             for ent in entities:
                 if ent['label'] == "nam_liv_person":
-                    persons.append(ent['text'])
+                    persons.append(f"{ent['text']} - {ent['label']}")
         
         return persons
 
@@ -163,7 +176,7 @@ class ClarinNER:
                     ok, label = self.is_city(tok)
                     if ok:
                         if isCity:
-                            city += f" {orth} ({label}) "
+                            city += f" {orth} ({label})"
                         else:
                             city = f"{orth} ({label})"
                             isCity = True
@@ -184,9 +197,22 @@ class ClarinNER:
     def get_cities_json(self) -> list:
         cities = []
         labels = ["nam_loc_gpe_city", 
-                  "nam_loc_hydronym_river", 
+                  "nam_loc_gpe_district",
+                  "nam_loc_gpe_country",
+                  "nam_loc_gpe_subdivision",
+                  "nam_loc_country_region",
+                  "nam_loc_hydronym_river",
+                  "nam_loc_hydronym_lake",
+                  "nam_loc_hydronym_ocean",
+                  "nam_loc_hydronym_sea",
+                  "nam_loc_hydronym",
+                  "nam_loc_land_continent",
+                  "nam_loc_land_island",
+                  "nam_loc_land_region",
+                  "nam_loc_land", 
                   "nam_loc_historical_region",
-                  "nam_loc_land_mountain"]
+                  "nam_loc_land_mountain",
+                  "nam_loc"]
         output = json.loads(self.result)
         for item in output:
             entities = item['entities']
