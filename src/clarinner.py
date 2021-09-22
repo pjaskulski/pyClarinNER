@@ -39,14 +39,14 @@ class ClarinNER:
 
 
     def get_xml(self):
-        if self.result[:4] == "<?xml":
+        if self.result.strip()[:5] == "<?xml":
             return self.result
         else:
             return ""    
 
 
     def get_json(self):
-        if self.result[:1] == "[{":
+        if self.result.strip()[:2] == "[{":
             return self.result
         else:
             return ""    
@@ -68,16 +68,25 @@ class ClarinNER:
         return isPerson
 
 
-    def is_city(self, tok):
+    def is_city(self, tok) -> tuple:
         isCity = False
-
+        label = ""
+        name = tok.find('orth').text
+        labels = ["nam_loc_gpe_city", 
+                  "nam_loc_hydronym_river",
+                  "nam_loc_gpe_country",
+                  "nam_loc_historical_region", 
+                  "nam_loc"]
         for ann in tok.findall('ann'):
             chan = ann.get('chan')
-            if chan in ["nam_loc_gpe_city"] and int(ann.text) > 0:
+            if chan in labels and int(ann.text) > 0:
                 isCity = True
-                break
-
-        return isCity
+                if label == "":
+                    label += chan
+                else:
+                    label += ", " + chan
+                
+        return isCity, f"{name} - {label}"
         
 
     def get_persons(self) -> list:
@@ -172,11 +181,15 @@ class ClarinNER:
 
     def get_cities_json(self) -> list:
         cities = []
+        labels = ["nam_loc_gpe_city", 
+                  "nam_loc_hydronym_river", 
+                  "nam_loc_historical_region",
+                  "nam_loc_land_mountain"]
         output = json.loads(self.result)
         for item in output:
             entities = item['entities']
             for ent in entities:
-                if ent['label'] == "nam_loc_gpe_city":
-                    cities.append(ent['text'])
+                if ent['label'] in labels:
+                    cities.append(f"{ent['text']} - {ent['label']}")
         
         return cities

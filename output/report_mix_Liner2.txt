@@ -1,0 +1,42 @@
+TEXT: Mikołaj Kamieniecki Jan Tarnowski Jan Sobieski
+
+Osoby:
+	Mikołaj Kamieniecki Jan Tarnowski Jan Sobieski
+Miejsca:
+
+
+TEXT: Położenie Pomorza (wzdłuż wybrzeża bałtyckiego) predestynowało je na pośrednika w handlu zaplecza z krajam i położonymi po przeciwnym brzegu Bałtyku. Zapleczem tym są tereny rozciągające się między garbem pojezierza pomorskiego a łańcuchem Sudetów, należące do obszaru dorzecza Odry. O kontaktach gospodarczych Pomorza z nim i świadczą wymownie stare szlaki handlowe. Jeżeli chodzi o związki handlowe Pomorza z Polską w XVI wieku, której część, a mianowicie Wielkopolska, należy do obszaru dorzecza Odry, to były one możliwe za pośrednictwem dróg lądowych i śródlądowo-wodnego - Warty i Odry. W średniowieczu ruch handlowy odbywał się na ważnym szlaku lądowym, łączącym Poznań przez Pniewy, Kamionkę, Skwierzynę, Santok, Myślibórz, Pyrzyce, Dąbie ze Szczecinem. Do Szczecina można było dotrzeć także kierując się od Santoka przez Stare Osieczno, Radęcin, Zieleniewo, Choszczno, Stargard na Dąbie i dalej na Szczecin.
+
+Osoby:
+	Bałtyku
+Miejsca:
+	Pomorza
+	Pomorza
+	Warty
+	Poznań
+	Pniewy
+	Santok
+	Myślibórz
+	Pyrzyce
+	Dąbie
+	Szczecinem
+	Szczecina
+	Santoka
+	Stare Osieczno
+	Radęcin
+	Zieleniewo
+	Choszczno
+	Szczecin
+
+
+TEXT: Wiemy, że w pierwszej połowie XIV w. uprawiano żeglugę na Warcie i Noteci począwszy od Drezdenka w dół ich biegu. Nic jednak nie wiemy o dziejach handlu polsko-pomorskiego na tym szlaku wodnym przed 1390 r. Polska handlowała z Pomorzem raczej na drogach lądowych. Ruch handlowy obu krajów na Warcie datuje się z końcem XIV w. Książę pomorski Bogusław VIII i król polski Władysław Jagiełło wydali obustronnie przywileje zapewniające kupcom polskim i pomorskim swobodny handel na drogach lądowych i Warcie, zobowiązując ich tylko do opłacenia zwykłych ceł w obu terytoriach.
+
+Osoby:
+	Drezdenka
+	Bogusław VIII
+	Władysław Jagiełło
+Miejsca:
+	Pomorzem
+	Warcie
+
+

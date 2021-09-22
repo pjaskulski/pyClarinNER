@@ -1,6 +1,7 @@
 # testy usługi NER z CLARIN-PL
 
 from clarinner import ClarinNER
+import os
 
 
 def read_texts(file_name) -> list:
@@ -25,96 +26,142 @@ def read_texts(file_name) -> list:
     return texts
 
 
-def get_person_city_liner2(text):
-    """ Przetwarzanie podanego tekstu przez usługę NER (Liner2) z CLARIN-PL
-        w celu wyszukania miejscowości i osób
+def get_person_city_liner2(filename, output_dir) -> None:
+    """ Przetwarzanie podanego pliku przez usługę NER (Liner2) z CLARIN-PL
+        w celu wyszukania miejscowości i osób.
+
+        filename - ścieżka do pliku z tekstami (każda próbka rozdzielona 
+        wierszem: ---)
+
+        output_dir - ścieżka do katalogu, gdzie ma być zapisany raport
     """
-    if text == "":
+
+    if filename == "": 
+        print("Nie podano nazwy pliku z tekstami.")
         return
-    else:
-        print(f"TEXT: {text}")
+
+    # wczytanie próbek tekstów
+    teksty = read_texts(filename)
+    if len(teksty) == 0:
+        print(f"Pusty plik: {filename}")
+        return
+    
+    if output_dir.strip() == "":
+        print("Nie wskazano folderu wyjściowego.")
+        return
+
+    basename = os.path.basename(filename)
+    if basename[-4:] == ".txt":
+        basename = basename[:-4]
+    if output_dir[-1] == "\\" or output_dir[-1] == "/":
+        output_dir = output_dir[:-1]
+
+    print(f"Liner2, przetwarzanie pliku: {filename}\n")
 
     # instancja klasy ClarinNER 
     cl = ClarinNER()
 
-    resp, status = cl.process(text)
-    if resp:
-        # wyszukiwanie osób w tekście
-        osoby = cl.get_persons()
-        print("Osoby:")
-        if len(osoby) > 0:
-            for item in osoby:
-                print(f"\t{item}")
+    with open(f"{output_dir}/report_{basename}_Liner2.txt", "w", encoding='utf-8') as f:
+        for text in teksty:
+            resp, status = cl.process(text)
+            if resp:
+                # przetwarzany tekst
+                f.write(f"TEXT: {text}\n\n")
+                
+                # wyszukiwanie osób w tekście
+                osoby = cl.get_persons()
+                f.write("Osoby:\n")
+                if len(osoby) > 0:
+                    for item in osoby:
+                        f.write(f"\t{item}\n")
 
-        # wyszukiwanie miejscowości w tekście
-        miejsca = cl.get_cities()
-        print("Miejsca:")
-        if len(miejsca) > 0:
-            for item in miejsca:
-                print(f"\t{item}")
+                # wyszukiwanie miejscowości w tekście
+                miejsca = cl.get_cities()
+                f.write("Miejsca:\n")
+                if len(miejsca) > 0:
+                    for item in miejsca:
+                        f.write(f"\t{item}\n")
         
-        print()
+                f.write("\n\n")
 
-    else:
-        print(f"Error, status code = {status}")
+            else:
+                print(f"Error, status code = {status}")
+                break
 
 
-def get_person_city_poldeep(text):
-    """ Przetwarzanie podanego tekstu przez usługę NER (PolDeepNer2) z CLARIN-PL
+def get_person_city_poldeep(filename, output_dir) -> None:
+    """ Przetwarzanie podanego pliku przez usługę NER (PolDeepNer2) z CLARIN-PL
         w celu wyszukania miejscowości i osób
+
+        filename - ścieżka do pliku z tekstami (każda próbka rozdzielona 
+        wierszem: ---)
+
+        output_dir - ścieżka do katalogu, gdzie ma być zapisany raport
     """
-    if text == "":
+
+    if filename == "": 
+        print("Nie podano nazwy pliku z tekstami.")
         return
-    else:
-        print(f"TEXT: {text}")
+
+    # wczytanie próbek tekstów
+    teksty = read_texts(filename)
+    if len(teksty) == 0:
+        print(f"Pusty plik: {filename}")
+        return
+    
+    if output_dir.strip() == "":
+        print("Nie wskazano folderu wyjściowego.")
+        return
+
+    basename = os.path.basename(filename)
+    if basename[-4:] == ".txt":
+        basename = basename[:-4]
+    if output_dir[-1] == "\\" or output_dir[-1] == "/":
+        output_dir = output_dir[:-1]
+
+    print(f"PolDeepNer2, przetwarzanie pliku: {filename}\n")
 
     # instancja klasy ClarinNER 
     cl = ClarinNER()
 
-    resp, status = cl.process(text, lpmn='any2txt|poldeepner2')
-    if resp:
+    with open(f"{output_dir}/report_{basename}_PolDeepNer2.txt", "w", encoding='utf-8') as f:
+        for text in teksty:
+            resp, status = cl.process(text, lpmn='any2txt|poldeepner2')
+            if resp:
+                # przetwarzany tekst
+                f.write(f"TEXT: {text}\n\n")
+                print(cl.get_json())
+                
+                # wyszukiwanie osób w tekście
+                osoby = cl.get_persons()
+                f.write("Osoby:\n")
+                if len(osoby) > 0:
+                    for item in osoby:
+                        f.write(f"\t{item}\n")
 
-        # wyszukiwanie osób w tekście
-        osoby = cl.get_persons()
-        print("Osoby:")
-        if len(osoby) > 0:
-            for item in osoby:
-                print(f"\t{item}")
+                # wyszukiwanie miejscowości w tekście
+                miejsca = cl.get_cities()
+                f.write("Miejsca:\n")
+                if len(miejsca) > 0:
+                    for item in miejsca:
+                        f.write(f"\t{item}\n")
+            
+                f.write("\n\n")
 
-        # wyszukiwanie miejscowości w tekście
-        miejsca = cl.get_cities()
-        print("Miejsca:")
-        if len(miejsca) > 0:
-            for item in miejsca:
-                print(f"\t{item}")
-
-    else:
-        print(f"Error, status code = {status}")
+            else:
+                print(f"Error, status code = {status}")
+                break
 
 
 if __name__ == "__main__":
     
-    # fragmenty z urzędników małopolskich        
-    teksty = read_texts("texts/urzednicy.txt")
-    for item in teksty:
-        get_person_city_liner2(item)
-    for item in teksty:
-        get_person_city_poldeep(item)
-
-
-    # fragmenty z bibliografii
-    teksty = read_texts("texts/bibliografia.txt")
-    for item in teksty:
-        get_person_city_liner2(item)
-    for item in teksty:
-        get_person_city_poldeep(item)
-
-
-    # teksty z różnych źródeł
-    teksty = read_texts("texts/mix.txt")
-    for item in teksty:
-        get_person_city_liner2(item)
-    for item in teksty:
-        get_person_city_poldeep(item)
-
-
+    pliki = []
+    output_dir = "output"
+    
+    pliki.append("texts/urzednicy.txt")    # fragmenty z urzędników małopolskich        
+    pliki.append("texts/bibliografia.txt") # fragmenty z bibliografii
+    pliki.append("texts/mix.txt")          # teksty z różnych źródeł
+    
+    for plik in pliki:
+        get_person_city_liner2(plik, output_dir)
+        get_person_city_poldeep(plik, output_dir)

@@ -1,0 +1,39 @@
+TEXT: Busina, z Grzymalici: Gronostaj (Wyszota) kasztelan sandomierski, starosta sądecki.
+
+Osoby:
+Miejsca:
+
+
+TEXT: Świętosław Litwos wielkorządca krakowski
+
+Osoby:
+	Świętosław Litwos
+Miejsca:
+
+
+TEXT: Busko, z Jan syn Dobromira, podkanclerzy krakowski (1360-66) 1226, pisarz królewski.
+
+Osoby:
+	Jan
+	Dobromira
+Miejsca:
+
+
+TEXT: Cebulka Mikołaj z Czechowa h. Cielepała, sekretarz wielkiego, księcia Witolda 1407-30, pisarz lubelski (1419-48) 551, zmarł a. 1456 (M. Kosman, „Studia Źródłoznawcze” 14, 1969, s. 102 -107; tenże w: Społeczeństwo Polski średniowiecznej, t. I, Warszawa 1981, s. 367-368)
+
+Osoby:
+	Cebulka Mikołaj
+	Witolda
+	M . Kosman
+Miejsca:
+	Czechowa
+	Warszawa
+
+
+TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim.
+
+Osoby:
+	Piotr Włodkowic podstoli sandomierski
+Miejsca:
+
+
