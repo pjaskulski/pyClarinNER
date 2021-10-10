@@ -9,6 +9,12 @@ Miejsca:
 	Wrocław (placeName)
 	Peregrinationes Sarmatarum (geogName)
 
+Organizacje:
+	Wydz. (orgName)
+	Nauk Hist (orgName)
+	Pedagog. (orgName)
+	Uniw (orgName)
+
 TEXT: BIBLIOGRAFIA historii Śląska w perspektywie historycznej i metodologicznej. Pod red. Małgorzaty Pawlak i Karola Sanojcy. Śląski Kwartalnik Historyczny Sobótka. R. 71: 2016 nr 3 s. 3–120, streszcz. ang., niem. 
 
 Osoby:
@@ -17,6 +23,9 @@ Osoby:
 
 Miejsca:
 	Śląska (geogName)
+
+Organizacje:
+	Śląski Kwartalnik Historyczny Sobótka (orgName)
 
 TEXT: MATYASIK Joanna: Druki Jerzego Förstera w zbiorach Wojewódzkiej i Miejskiej Biblioteki Publicznej w Bydgoszczy. Kronika Bydgoska. T. 37: 2016 s. 309–330, streszcz. ang., niem. Jerzy Förster (ok. 1615–1660), drukarz i księgarz. 
 
@@ -27,6 +36,10 @@ Osoby:
 
 Miejsca:
 	Bydgoska (placeName)
+
+Organizacje:
+	Wojewódzkiej (orgName)
+	Miejskiej Biblioteki Publicznej w Bydgoszczy (orgName)
 
 TEXT: [DUMA Robert, Bartlewski Robert]: 70 lat bystrzyckiej Biblioteki Publicznej 1946–2016. Tekst i oprac. Robert Duma, Robert Bartlewski. Bystrzyca Kłodzka–Kłodzko 2016 Bibl. Publ. M. i Gm.; Spółdzielnia Socjalna „Dorkas” 8° ss. 66, tabl. 6, il. 
 
@@ -42,6 +55,10 @@ Miejsca:
 	bystrzyckiej (placeName)
 	Bystrzyca Kłodzka (placeName)
 	Kłodzko (placeName)
+
+Organizacje:
+	Biblioteki Publicznej (orgName)
+	Spółdzielnia Socjalna „Dorkas” (orgName)
 
 
 
