@@ -1,0 +1,85 @@
+TEXT: Busina, z Grzymalici: Gronostaj (Wyszota) kasztelan sandomierski, starosta sądecki. 
+
+Osoby:
+	Busina (persName)
+	Gronostaj (persName)
+
+Miejsca:
+	Grzymalici (placeName)
+	Wyszota (placeName)
+	sandomierski (placeName)
+	sądecki (placeName)
+
+TEXT: Świętosław Litwos wielkorządca krakowski 
+
+Osoby:
+	Świętosław Litwos (persName)
+
+Miejsca:
+
+TEXT: Busko, z Jan syn Dobromira, podkanclerzy krakowski (1360-66) 1226, pisarz królewski. 
+
+Osoby:
+	Jan syn (persName)
+	Dobromira (persName)
+
+Miejsca:
+	Busko (placeName)
+	krakowski (placeName)
+
+TEXT: Cebulka Mikołaj z Czechowa h. Cielepała, sekretarz wielkiego, księcia Witolda 1407-30, pisarz lubelski (1419-48) 551, zmarł a. 1456 (M. Kosman, „Studia Źródłoznawcze” 14, 1969, s. 102 -107; tenże w: Społeczeństwo Polski średniowiecznej, t. I, Warszawa 1981, s. 367-368) 
+
+Osoby:
+	Mikołaj (persName)
+	Czechowa (persName)
+	Witolda (persName)
+	a. (persName)
+	M. (persName)
+	Kosman (persName)
+
+Miejsca:
+	lubelski (placeName)
+	Polski (placeName)
+	Warszawa (placeName)
+
+TEXT: Piotr Włodkowic podstoli sandomierski (1401 -27) 891, nazwany także podczaszym krakowskim. 
+
+Osoby:
+	Piotr Włodkowic (persName)
+
+Miejsca:
+	sandomierski (placeName)
+	krakowskim (placeName)
+
+TEXT: Cikowice, z Piotr h. Radwan, podżupek bocheński do 1442, psęd. Krak. 
+
+Osoby:
+	Piotr (persName)
+	Radwan (persName)
+	Krak (persName)
+
+Miejsca:
+	Cikowice (placeName)
+
+TEXT: Stanisław z Ostrołęki (brat poprzednich) notariusz królewski 1410. 
+
+Osoby:
+	Stanisław (persName)
+
+Miejsca:
+	Ostrołęki (placeName)
+
+TEXT: Czarnisza Andrzej z Rzeszotar h. Wąż, mieszczanin Krak., podżupek wielicki 1392-97, celnik Krak. 
+
+Osoby:
+	Czarnisza (persName)
+	Andrzej (persName)
+	Rzeszotar (persName)
+	Krak (persName)
+
+Miejsca:
+	Krak (placeName)
+	wielicki (placeName)
+
+
+
